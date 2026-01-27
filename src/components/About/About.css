@@ -1,0 +1,78 @@
+.about-section {
+  padding: 100px 0;
+  background: var(--dark-bg);
+  position: relative;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--gray-text);
+  text-align: center;
+}
+
+.highlight-card {
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.highlight-icon-svg {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight-icon-svg svg {
+  filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.3));
+}
+
+.highlight-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.highlight-subtitle {
+  color: var(--gray-text);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.education-card {
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.education-degree {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--light-text);
+  margin-bottom: 0.5rem;
+}
+
+.education-institution {
+  font-size: 1rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.education-year {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+}
+
+.education-grade {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--light-text);
+  margin-bottom: 0.5rem;
+}
+
+.education-description {
+  font-size: 0.9rem;
+  color: var(--gray-text);
+  line-height: 1.6;
+}

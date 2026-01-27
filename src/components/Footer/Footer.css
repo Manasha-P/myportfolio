@@ -1,0 +1,59 @@
+.footer-section {
+  padding: 3rem 0;
+  background: var(--darker-bg);
+  border-top: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+color: var(--light-text);
+}
+.logo-bracket {
+color: var(--primary-color);
+}
+.social-links {
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+.social-links .social-link {
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgba(255, 255, 255, 0.05);
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+color: var(--light-text);
+font-size: 1.1rem;
+transition: all 0.3s ease;
+text-decoration: none;
+}
+.social-links .social-link:hover {
+background: var(--primary-color);
+border-color: var(--primary-color);
+color: white;
+transform: translateY(-5px);
+}
+.copyright {
+color: var(--gray-text);
+font-size: 0.9rem;
+}
+.copyright-year {
+color: var(--gray-text);
+font-size: 0.85rem;
+}
+.heart-icon {
+color: var(--accent-color);
+animation: heartbeat 1.5s ease-in-out infinite;
+}
+@keyframes heartbeat {
+0%, 100% {
+transform: scale(1);
+}
+50% {
+transform: scale(1.1);
+}
+}

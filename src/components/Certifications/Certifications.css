@@ -1,0 +1,61 @@
+.certifications-section {
+  padding: 100px 0;
+  background: var(--dark-bg);
+}
+
+.subsection-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--light-text);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.certification-card,
+.achievement-card {
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.cert-icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.cert-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--light-text);
+  margin-bottom: 0.5rem;
+}
+
+.cert-issuer {
+  font-size: 1rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.cert-description {
+  font-size: 0.95rem;
+  color: var(--gray-text);
+  line-height: 1.6;
+}
+
+.achievement-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.achievement-year {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.achievement-description {
+  font-size: 1rem;
+  color: var(--gray-text);
+  line-height: 1.7;
+}
