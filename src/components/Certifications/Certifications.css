@@ -25,7 +25,7 @@
 .cert-title {
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--light-text);
+  color: rgb(172, 172, 238);
   margin-bottom: 0.5rem;
 }
 
@@ -37,7 +37,7 @@
 
 .cert-description {
   font-size: 0.95rem;
-  color: var(--gray-text);
+  color: rgb(37, 39, 40);
   line-height: 1.6;
 }
 

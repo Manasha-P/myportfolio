@@ -33,7 +33,7 @@ function Footer() {
 
           <Col md={4} className="text-center text-md-end">
             <p className="copyright mb-0">
-              Made with <FaHeart className="heart-icon" /> by {personalInfo.name.split(' ')[0]}
+              Made with  by {personalInfo.name.split(' ')[0]}
             </p>
             <p className="copyright-year mb-0">
               © {new Date().getFullYear()} All rights reserved
